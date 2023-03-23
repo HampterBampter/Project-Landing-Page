@@ -47,12 +47,14 @@ button {
     padding: 2px 25px;
     border-radius: 10px;
     border: none;
+    height: 36px;
+    width: 108px;
 }
 
 #row1 {
     display: flex;
     padding-bottom: 40px;
-   
+    justify-content: space-around;
 }
 
 /* #endregion row1 */
@@ -110,15 +112,19 @@ li {
 #row4 {
     color:white;
     background-color: #3882f6;
-    height: 35%;
-    width: 80%;
-    border: white;
-}
-/* #row4 li { 
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-} */
+    height: 150px;
+    margin-inline: 10%;
+    margin-block: 50px;
+    border-radius: 10px;
+}
+
 #row4 button {
     border: 1px solid white;
+    border-radius: 5%;
+    
 }
 
 /* #endregion */
